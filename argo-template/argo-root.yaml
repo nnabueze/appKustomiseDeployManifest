@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: argo-template/
-    repoURL: https://github.com/nnabueze/testAppTemplate.git
+    repoURL: https://github.com/nnabueze/appKustomiseDeployManifest.git
     targetRevision: HEAD
   syncPolicy:
     automated:
