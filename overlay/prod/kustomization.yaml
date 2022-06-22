@@ -1,9 +1,6 @@
 bases:
   - ../../base
 
-
-namePrefix: prod-
-
 patchesStrategicMerge:
   - replica.yaml
 

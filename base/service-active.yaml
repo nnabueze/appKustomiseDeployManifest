@@ -6,7 +6,7 @@ metadata:
   name: service-active
 spec:
   ports:
-  - name: 80-5000
+  - name: http
     port: 80
     protocol: TCP
     targetPort: 5000
