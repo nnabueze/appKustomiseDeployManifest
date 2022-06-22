@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  labels:
+    app: math-app
+  name: math-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: math-app
+  template:
+    metadata:
+      labels:
+        app: math-app
+    spec:
+      containers:
+      - image: villavelle101/maths:31
+        name: test-app
+        resources: {}
+  strategy:
+    blueGreen: 
+      activeService: service-active
+      previewService: service-preview
+      autoPromotionEnabled: false
