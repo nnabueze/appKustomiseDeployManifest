@@ -1,5 +1,3 @@
-resources:
-  - deployment.yaml
+bases:
+  - ../test
 
-commonLabels:
-  owner: eze
