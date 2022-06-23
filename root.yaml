@@ -9,7 +9,7 @@ spec:
     namespace: default
   project: default
   source:
-    path: argo-template/
+    path: templates/
     repoURL: https://github.com/nnabueze/appKustomiseDeployManifest.git
     targetRevision: HEAD
   syncPolicy:
