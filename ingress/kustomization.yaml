@@ -1,2 +1,2 @@
 resources:
-  - ingress-controller.yaml
+  - deployment.yaml
