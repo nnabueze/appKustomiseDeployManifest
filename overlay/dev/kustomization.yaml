@@ -10,4 +10,4 @@ patchesStrategicMerge:
 images:
   - name: test-app
     newName: test-app
-    newTag: 31
+    newTag:35
