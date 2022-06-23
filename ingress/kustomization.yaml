@@ -1,5 +1,2 @@
 bases:
   - ../test
-
-commonLabels:
-  owner: eze
